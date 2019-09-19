@@ -48,3 +48,92 @@ TABLE OF CONTENTS:
 
 
 
+
+
+/*-------------------
+4.0	ELEMENTS
+---------------------*/
+
+/*---TYPOGRAPHY---*/
+
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+header p {
+	font-size: .8rem;
+	color: #32b0ee;
+}
+
+#hero p {
+	color: #fff;
+}
+
+
+
+/*-------------------------
+5.0	OBJECTS
+---------------------------*/
+
+
+/*---FRAMEWORK---*/
+
+#hero {
+	padding: 10em 0;
+}
+
+
+/*-------------------------
+6.0	COMPONENTS
+---------------------------*/
+
+
+/*---BUTTONS---*/
+
+
+/*---HEADER---*/
+
+
+
+
+/*---NAVIGATION---*/
+
+header nav li {
+	display: inline-block;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font: .8rem 'Open Sans', sans-serif;
+}
+
+
+
+
+/*-------------------------
+7.0	UTILITIES
+---------------------------*/
+
+
+/*---ALIGNMENT---*/
+
+.f-right {
+	float: right;
+}
+
+
+/*---COLORS---*/
+
+header {
+	background-color: #10443f;
+}
+
+#hero {
+	background-color: #217566;
+}
+/*---SIZE---*/
+
+
+
+
