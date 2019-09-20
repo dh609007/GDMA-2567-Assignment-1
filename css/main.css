@@ -56,17 +56,25 @@ TABLE OF CONTENTS:
 
 /*---TYPOGRAPHY---*/
 
+.col-lg-2 p, #features p, footer p {
+	font-size: .8rem;
+}
+
 html {
 	font-family: 'Open Sans', sans-serif;
 }
 
-header p {
-	font-size: .8rem;
-	color: #32b0ee;
-}
 
 #hero p {
 	color: #fff;
+}
+
+.txt-ctr {
+	text-align: center;
+}
+
+#works p {
+	font-size: 1.07rem;
 }
 
 
@@ -82,7 +90,9 @@ header p {
 	padding: 10em 0;
 }
 
-
+footer {
+	padding: 5em 0;
+}
 /*-------------------------
 6.0	COMPONENTS
 ---------------------------*/
@@ -93,7 +103,20 @@ header p {
 
 /*---HEADER---*/
 
+h2, #hero span {
+	color: #0eb493;
+}
 
+h2 {
+	font-size: 1.7rem;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 1.1rem;
+	color: #062033;
+}
 
 
 /*---NAVIGATION---*/
@@ -125,13 +148,19 @@ nav a {
 
 /*---COLORS---*/
 
-header {
+#bg-dk-grn {
 	background-color: #10443f;
+}
+
+#features {
+	background-color: #f4f7f9;
 }
 
 #hero {
 	background-color: #217566;
 }
+
+
 /*---SIZE---*/
 
 
