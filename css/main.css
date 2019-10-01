@@ -59,7 +59,7 @@ TABLE OF CONTENTS:
 
 /*---TYPOGRAPHY---*/
 
-.col-lg-2 p, #features p, footer p {
+#logo p, #features p, footer p {
 	font-size: .8rem;
 }
 
@@ -67,18 +67,50 @@ html {
 	font-family: 'Open Sans', sans-serif;
 }
 
+.txt-ctr {
+	text-align: center;
+}
 
-#hero p {
+#features p, footer p {
+	line-height: 1.3rem;
+}
+
+footer p {
 	color: #fff;
 }
 
-.txt-ctr {
-	text-align: center;
+#hero p:first-child {
+	font-size: 4rem;
+	margin-bottom: 0;
+}
+
+#hero p:nth-child(2) {
+	font-size: 3rem;
+	margin-top: 0;
+}
+#hero p {
+	color: #fff;
+	font-weight: 100;
+}
+
+#hero b {
+	font-weight: 700;
+}
+
+#logo p {
+	color: #888888;
+	margin-left: 2em;
+}
+
+#logo p span {
+	color: #1b677b;
 }
 
 #works p {
 	font-size: 1.07rem;
 }
+
+
 
 
 
@@ -90,11 +122,24 @@ html {
 /*---FRAMEWORK---*/
 
 footer {
-	padding: 5em 0 10em;
+	padding: 5em 0 15em;
+	border-top: .5em solid #10443f;
 }
 
 header {
 	padding: 1em 0;
+}
+
+h1 {
+	margin-top: 0;
+}
+
+h3 {
+	margin-bottom: 0;
+}
+
+.col-lg-3:nth-child(2) {
+	margin-left: 7.5em;
 }
 
 
@@ -103,7 +148,7 @@ header {
 }
 
 #hero {
-	padding: 15em 0;
+	padding: 20em 0 12em;
 }
 
 #works {
@@ -120,6 +165,10 @@ header {
 
 
 /*---HEADER---*/
+
+h1, #logo p {
+	display: inline-block;
+}
 
 h2, #hero span {
 	color: #0eb493;
@@ -148,6 +197,10 @@ nav a {
 	color: #fff;
 	text-decoration: none;
 	font: .8rem 'Open Sans', sans-serif;
+}
+
+nav a:hover {
+	color: #1b677b;
 }
 
 
@@ -185,11 +238,107 @@ footer {
 }
 
 #hero {
-	background-color: #217566;
+	background-color: #104f41;
 }
 
 
 /*---SIZE---*/
+
+
+@media only screen and (max-width: 510px){
+	
+	html {
+		font-size: 1.2rem;
+	}
+	
+	h2 {
+		font-size: 1.3rem;
+	}
+	
+	h3 {
+		font-size: 1.0rem;
+	}
+	
+	#works, #features {
+		padding: 4em 0;
+	}
+	
+	.wrapper {
+		width: 90%;
+	}
+	
+	#hero p:first-child {
+		font-size: 2rem;
+	}
+	
+	#hero p:nth-child(2) {
+		font-size: 1.2rem;
+	}
+	
+	#hero p:last-child {
+		font-size: .9rem;
+	}
+	
+	#logo {
+		margin: 0;
+		text-align: center;
+	}
+	
+	#features .col-sm-12:nth-child(2) {
+		margin-left: 0;
+	}
+	
+	#works p {
+		font-size: .9rem;
+	}
+	
+}
+
+@media only screen and (min-width: 768px){
+	
+	html {
+		font-size: 1rem;
+	}
+	
+	h2 {
+		font-size: 1.3rem;
+	}
+	
+	h3 {
+		font-size: 1.0rem;
+	}
+	
+	
+	
+	.wrapper {
+		width: 75%;
+	}
+	
+	#hero p:first-child {
+		font-size: 3rem
+	}
+	
+	#hero p:nth-child(2) {
+		font-size: 1.7rem;
+	}
+	
+	#features .col-md-3:nth-child(2) {
+		margin-left: 5.5em;
+	}
+	
+	#works, #features {
+	padding: 7em 0;
+	}
+	
+	
+}
+	
+@media only screen and (min-width: 1024px) {
+	
+}
+
+
+
 
 
 
